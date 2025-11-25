@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #585858;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#survey-form {
+  background: rgb(211, 210, 210);
+  padding: 25px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+#title {
+  text-align: left;
+  color: #333;
+}
+
+
+label {
+  font-weight: bold;
+  color: #444;
+  display: block;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 250px;
+  padding: 10px;
+  border: 2px solid #504e4e;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+#submit {
+  width: 100px;
+  padding: 12px;
+  background: #333;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}

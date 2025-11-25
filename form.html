@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+</head>
+<body>
+    <link rel="stylesheet" href="stil.css">
+
+  <!--Form Elementi -->
+ <form id="survey-form">
+
+      <h1 id="title">Anket Formu</h1>
+
+    <br><br>
+        <label id="name-label" for="name">İsim:</label>
+    <input
+      id="name"
+      type="text"
+      required
+    />
+    <label id="email-label" for="email">E-posta:</label>
+    <input
+      id="email"
+      type="email"
+      required
+    />
+
+    <br><br>
+    <label id="number-label" for="number">Yaş:</label>
+    <input
+      id="number"
+      type="number"
+      required
+    />
+
+    <br><br>
+
+    <!-- Seçim Kutusu -->
+      <p>Cinsiyet</p>
+    <label><input type="radio" name="cinsiyet" value="iyi"> Erkek</label>
+    <label><input type="radio" name="cinsiyet" value="orta"> Kadın</label>
+    </select>
+
+    <br><br>
+
+    <!-- Radyo Düğmeleri -->
+    <p>Memnuniyet düzeyi:</p>
+    <label><input type="radio" name="memnuniyet" value="iyi"> İyi</label>
+    <label><input type="radio" name="memnuniyet" value="orta"> Orta</label>
+    <label><input type="radio" name="memnuniyet" value="kötü"> Kötü</label>
+
+    <br><br>
+
+    <!-- Onay Kutuları -->
+    <p>Sevdiğiniz çiçekler:</p>
+    <label><input type="checkbox" value="web"> Gül</label>
+    <label><input type="checkbox" value="mobil"> Şakayık</label>
+    <label><input type="checkbox" value="destek"> Orkide</label>
+
+    <br><br>
+
+    <!--Metin Alanı -->
+    <label for="comments"></label>
+    <textarea id="comments" placeholder="Yorumlarınızı yazabilirsiniz..." rows="3"></textarea>
+
+    <br><br>
+
+    <!--Gönder Butonu -->
+    <input id="submit" type="submit" value="Gönder"/>
+
+  </form>
+
+</body>
+</html>
